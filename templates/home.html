@@ -1,1 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE</title>
+    <link rel="icon" href="static/image/blogo.png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body style = "background-image: url(static/image/wallpaper.jpg)">
+    <header>
+        <div>
+            <nav class="nav">
+                <div class="logo">
+                    <img src="static/image/blogo.png" alt="home logo" width="40" height="40">
+                </div>
+                <ul class="menu">
+                    <li class="menu_item"><a href="{{ url_for('get_home') }}">home</a></li>
+                    <li class="menu_item"><a href="/bible/kjv/Genesis/1">BOOK</a>
+                        <ul class="submenu books">
+                            {% for book in all_books: %}
+                                <a class="submenu_item book" href="/bible/kjv/{{ book }}/1">{{ book }}</a>
+                            {% endfor %}
+                        </ul>
+                    </li>
+                    <li class="menu_item"><a href="">TRANSLATIONS</a>
+                        <ul class="submenu">
+                            <li class="submenu_item english"><a href="">english</a>
+                                <ul>
+                                    <li><a href="/bible/kjv/Genesis/1">kjv</a></li>
+                                    <li><a href="/bible/niv/Genesis/1">niv</a></li>
+                                    <li><a href="/bible/asv/Genesis/1">asv</a></li>
+                                </ul>
+                            </li>
+                            <li class="submenu_item"><a href="/bible/telugu/Genesis/1">telugu</a></li>
+                            <li class="submenu_item"><a href="/bible/hindi/Genesis/1">hindi</a></li>
+                            <li class="submenu_item"><a href="/bible/tamil/Genesis/1">tamil</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu_item"><a href="/bible_commentary/kjv/Genesis/1">commentary</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="main">
+            <p>"The grass withers,</p>
+            <p>the flower fades,</p>
+            <p>but the word of our God</p>
+            <p>will stand forever."</p>
+            <p>Isaiah 40:8</p>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <h3>Bible Website</h3>
+            <p>Encouraging and challenging you to seek intimacy with God every day.</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2020 HOLYBIBLE. designed by <span>divya</span></p>
+        </div>
+    </footer>
 
+</body>
+</html>
