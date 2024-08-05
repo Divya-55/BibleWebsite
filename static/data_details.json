@@ -1,0 +1,276 @@
+{
+  "translations_codes": {
+    "kjv": 1,
+    "niv": 111,
+    "asv": 12,
+    "telugu": 1787,
+    "hindi": 2562,
+    "tamil": 1899
+  },
+  "books_details": {
+    "Genesis": {
+      "code": "GEN",
+      "chapters": 50
+    },
+    "Exodus": {
+      "code": "EXO",
+      "chapters": 40
+    },
+    "Leviticus": {
+      "code": "LEV",
+      "chapters": 27
+    },
+    "Numbers": {
+      "code": "NUM",
+      "chapters": 36
+    },
+    "Deuteronomy": {
+      "code": "DEU",
+      "chapters": 34
+    },
+    "Joshua": {
+      "code": "JOS",
+      "chapters": 24
+    },
+    "Judges": {
+      "code": "JDG",
+      "chapters": 21
+    },
+    "Ruth": {
+      "code": "RUT",
+      "chapters": 4
+    },
+    "1 Samuel": {
+      "code": "1SA",
+      "chapters": 31
+    },
+    "2 Samuel": {
+      "code": "2SA",
+      "chapters": 24
+    },
+    "1 Kings": {
+      "code": "1KI",
+      "chapters": 22
+    },
+    "2 Kings": {
+      "code": "2KI",
+      "chapters": 25
+    },
+    "1 Chronicles": {
+      "code": "1CH",
+      "chapters": 29
+    },
+    "2 Chronicles": {
+      "code": "2CH",
+      "chapters": 36
+    },
+    "Ezra": {
+      "code": "EZR",
+      "chapters": 10
+    },
+    "Nehemiah": {
+      "code": "NEH",
+      "chapters": 13
+    },
+    "Esther": {
+      "code": "EST",
+      "chapters": 10
+    },
+    "Job": {
+      "code": "JOB",
+      "chapters": 42
+    },
+    "Psalm": {
+      "code": "PSA",
+      "chapters": 150
+    },
+    "Proverbs": {
+      "code": "PRO",
+      "chapters": 31
+    },
+    "Ecclesiastes": {
+      "code": "ECC",
+      "chapters": 12
+    },
+    "Song of Solomon": {
+      "code": "SNG",
+      "chapters": 8
+    },
+    "Isaiah": {
+      "code": "ISA",
+      "chapters": 66
+    },
+    "Jeremiah": {
+      "code": "JER",
+      "chapters": 52
+    },
+    "Lamentations": {
+      "code": "LAM",
+      "chapters": 5
+    },
+    "Ezekiel": {
+      "code": "EZK",
+      "chapters": 48
+    },
+    "Daniel": {
+      "code": "DAN",
+      "chapters": 12
+    },
+    "Hosea": {
+      "code": "HOS",
+      "chapters": 14
+    },
+    "Joel": {
+      "code": "JOL",
+      "chapters": 3
+    },
+    "Amos": {
+      "code": "AMO",
+      "chapters": 9
+    },
+    "Obadiah": {
+      "code": "OBA",
+      "chapters": 1
+    },
+    "Jonah": {
+      "code": "JON",
+      "chapters": 4
+    },
+    "Micah": {
+      "code": "MIC",
+      "chapters": 7
+    },
+    "Nahum": {
+      "code": "NAM",
+      "chapters": 3
+    },
+    "Habakkuk": {
+      "code": "HAB",
+      "chapters": 3
+    },
+    "Zephaniah": {
+      "code": "ZEP",
+      "chapters": 3
+    },
+    "Haggai": {
+      "code": "HAG",
+      "chapters": 2
+    },
+    "Zechariah": {
+      "code": "ZEC",
+      "chapters": 14
+    },
+    "Malachi": {
+      "code": "MAL",
+      "chapters": 4
+    },
+    "Matthew": {
+      "code": "MAT",
+      "chapters": 28
+    },
+    "Mark": {
+      "code": "MRK",
+      "chapters": 16
+    },
+    "Luke": {
+      "code": "LUK",
+      "chapters": 24
+    },
+    "John": {
+      "code": "JHN",
+      "chapters": 21
+    },
+    "Acts": {
+      "code": "ACT",
+      "chapters": 28
+    },
+    "Romans": {
+      "code": "ROM",
+      "chapters": 16
+    },
+    "1 Corinthians": {
+      "code": "1CO",
+      "chapters": 16
+    },
+    "2 Corinthians": {
+      "code": "2CO",
+      "chapters": 13
+    },
+    "Galatians": {
+      "code": "GAL",
+      "chapters": 6
+    },
+    "Ephesians": {
+      "code": "EPH",
+      "chapters": 6
+    },
+    "Philippians": {
+      "code": "PHP",
+      "chapters": 4
+    },
+    "Colossians": {
+      "code": "COL",
+      "chapters": 4
+    },
+    "1 Thessalonians": {
+      "code": "1TH",
+      "chapters": 5
+    },
+    "2 Thessalonians": {
+      "code": "2TH",
+      "chapters": 3
+    },
+    "1 Timothy": {
+      "code": "1TI",
+      "chapters": 6
+    },
+    "2 Timothy": {
+      "code": "2TI",
+      "chapters": 4
+    },
+    "Titus": {
+      "code": "TIT",
+      "chapters": 3
+    },
+    "Philemon": {
+      "code": "PHM",
+      "chapters": 1
+    },
+    "Hebrews": {
+      "code": "HEB",
+      "chapters": 13
+    },
+    "James": {
+      "code": "JAS",
+      "chapters": 5
+    },
+    "1 Peter": {
+      "code": "1PE",
+      "chapters": 5
+    },
+    "2 Peter": {
+      "code": "2PE",
+      "chapters": 3
+    },
+    "1 John": {
+      "code": "1JN",
+      "chapters": 5
+    },
+    "2 John": {
+      "code": "2JN",
+      "chapters": 1
+    },
+    "3 John": {
+      "code": "3JN",
+      "chapters": 1
+    },
+    "Jude": {
+      "code": "JUD",
+      "chapters": 1
+    },
+    "Revelation": {
+      "code": "REV",
+      "chapters": 22
+    }
+  }
+}
