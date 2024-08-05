@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIBLE</title>
+    <link rel="icon" type="image/x-icon" href="static/image/blogo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+<body style="background-color: #e6e6e6;">
+    <header>
+        <div class="nav_bar">
+            <nav class="nav" style="background-color: #20262E">
+                <div class="logo">
+                    <img src="{{ url_for('static', filename='image/blogo.png') }}" alt="home logo" width="40" height="40">
+                </div>
+                <ul class="menu">
+                    <li class="menu_item"><a href="{{ url_for('get_home') }}">home</a></li>
+                    <li class="menu_item"><a href="">BOOK</a>
+                        <ul class="submenu books" style="background-color: #20262E;">
+                            {% for book in all_books: %}
+                                <a class="submenu_item book" href="/bible/{{ translation }}/{{ book }}/1">{{ book }}</a>
+                            {% endfor %}
+                        </ul>
+                    </li>
+                    <li class="menu_item"><a href="">TRANSLATIONS</a>
+                        <ul class="submenu" style="background-color: #20262E">
+                            <li class="submenu_item english"><a href="">english</a>
+                                <ul style="background-color: #20262E;">
+                                    <li><a href="/bible/kjv/{{book}}/{{chapter}}">kjv</a></li>
+                                    <li><a href="/bible/niv/{{book}}/{{chapter}}">niv</a></li>
+                                    <li><a href="/bible/asv/{{book}}/{{chapter}}">asv</a></li>
+                                </ul>
+                            </li>
+                            <li class="submenu_item"><a href="/bible/telugu/{{book}}/{{chapter}}">telugu</a></li>
+                            <li class="submenu_item"><a href="/bible/hindi/{{book}}/{{chapter}}">hindi</a></li>
+                            <li class="submenu_item"><a href="/bible/tamil/{{book}}/{{chapter}}">tamil</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu_item"><a href="/bible_commentary/{{ translation }}/{{ book }}/{{ chapter }}">commentary</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="heading">
+            <h1 style="color:  #9b870c  ; font-family: 'Playfair Display', serif;">{{book.upper()}}</h1>
+            <div class="select-menu">
+                <div class="select-btn">
+                    <span class="sBtn-text">Chapter</span>
+                    <i class='bx bx-caret-up'></i>
+                    <ul class="options">
+                        {% for i in range(1, number_of_chapters+1): %}
+                        <a href="/bible/{{ translation }}/{{ book }}/{{ i }}" class="option option-text">{{ i }}</a>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <p class="chapter_num">: {{ chapter }}</p>
+            </div>
+        </div>
+        <div class="contents">
+            {% for item in content %}
+                <p>{{ item.getText() }}</p>
+            {% endfor %}
+        </div>
+    </main>
+    <footer style="top: 1100px;">
+        <div class="footer-content">
+            <h3>Bible Website</h3>
+            <p>Encouraging and challenging you to seek intimacy with God every day.</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2020 HOLYBIBLE. designed by <span>divya</span></p>
+        </div>
+    </footer>
+    <script src="{{ url_for('static', filename='javascript/app.js') }}"></script>
+
+</body>
+</html>
