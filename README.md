@@ -37,7 +37,7 @@ This Bible web application allows users to read and explore different translatio
     - **bible.html:** Template for displaying Bible chapters for reading.
 
     - **commentary.html:** Template for displaying Bible commentary.
-  - **requrements.txt:** Lists all Python libraries and versions required for the project.
+- **requrements.txt:** Lists all Python libraries and versions required for the project.
 
 ## Prerequisites
   - Python 3.8+
@@ -48,19 +48,19 @@ This Bible web application allows users to read and explore different translatio
 ## Installation
 - ### Step-by-Step Installation
   1. **Clone the repository**:
-        - ```
-           git clone https://github.com/your-username/BibleWebsite.git
-           cd BibleWebsite
-           ```
+         ```
+         git clone https://github.com/your-username/BibleWebsite.git
+         cd BibleWebsite
+         ```
   2. **Create a virtual environment:** This step is optional but recommended to manage dependencies seperately from other projects.
-        - ```
-          python3 -m venv venv
-          source venv/bin/activate   # On Windows, use 'venv\Scripts\activate'
-          ```
-  3. **Install dependencies:** Install all the neccessary python using the                 ```requirements.txt``` file.
-        - ```pip install -r requirements.txt```
+         ```
+         python3 -m venv venv
+         source venv/bin/activate   # On Windows, use 'venv\Scripts\activate'
+         ```
+  3. **Install dependencies:** Install all the neccessary python using the                           ```requirements.txt``` file.
+         ```pip install -r requirements.txt```
   4. **Run the Flask app:** Start the flask developement server to run the applicaion
-         - ```flask run```
+         ```flask run```
   5. **Navigate to the app:** Open your web browser and visit http://127.0.0.1:5000 to view the application.
 
 ## Usage
