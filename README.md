@@ -5,58 +5,63 @@
 This Bible web application allows users to read and explore different translations of the Bible, view specific books and chapters, and access related commentaries. The application is built using Flask, a Python web framework, and integrates content scraped from external websites.
 
 ## Features
-- Homepage: Displays a list of all available Bible books.
-- Bible Reader: Allows users to read Bible chapters from different translations.
-- Commentary Section: Provides commentary for specific Bible chapters.
-- Responsive Design: The user interface is designed to be responsive and user-friendly.
+- **Homepage:** Displays a list of all available Bible books.
+- **Bible Reader:** Allows users to read Bible chapters from different translations.
+- **Commentary Section:** Provides commentary for specific Bible chapters.
+- **Responsive Design:** The user interface is designed to be responsive and user-friendly.
 
 ## Technologies Used
-- Python: Programming language for server-side logic.
-- Flask: Web framework for building the application.
-- BeautifulSoup: Library used for web scraping and parsing HTML content.
-- HTML/CSS: For structuring and styling web pages.
-- JavaScript: For additional interactivity and functionality.
+- **Python:** Programming language for server-side logic.
+- **Flask:** Web framework for building the application.
+- **BeautifulSoup:** Library used for web scraping and parsing HTML content.
+- **HTML/CSS:** For structuring and styling web pages.
+- **JavaScript:** For additional interactivity and functionality.
 
 ## Project Structure
-- server.py: Contains the main application logic, including route handling and any other server-side code necessary for the application.
+- **server.py:** Contains the main application logic, including route handling and any other server-side code necessary for the application.
 
-- static/: Holds all static assets for your application, organized by type:
+- **static/:** Holds all static assets for your application, organized by type:
 
-    - css/style.css: A stylesheet used to style the web application.
+    - **css/style.css:** A stylesheet used to style the web application.
 
-    - image/blogo.png: A logo image used in the application.
+    - **image/blogo.png:** A logo image used in the application.
 
-    - javascript/app.js: JavaScript file for adding interactive functionality to the web application.
+    - **javascript/app.js:** JavaScript file for adding interactive functionality to the web application.
 
-    - data_details.json: A JSON file containing data details, such as translations and book information.
+    - **data_details.json:** A JSON file containing data details, such as translations and book information.
 
-- templates/: Contains all HTML templates used to render different pages of your application:
+- **templates/:** Contains all HTML templates used to render different pages of your application:
 
-    - home.html: Template for the homepage.
+    - **home.html:** Template for the homepage.
 
-    - bible.html: Template for displaying Bible chapters for reading.
+    - **bible.html:** Template for displaying Bible chapters for reading.
 
-    - commentary.html: Template for displaying Bible commentary.
+    - **commentary.html:** Template for displaying Bible commentary.
+  - **requrements.txt:** Lists all Python libraries and versions required for the project.
 
 ## Prerequisites
   - Python 3.8+
   - Pip (Python package installer)
   - An active internet connection (for scraping content from Bible.com and Enduring Word)
-
-## Requirements
-`''txt
-Flask==2.0.1
-requests==2.26.0
-beautifulsoup4==4.10.0
-lxml==4.6.3'''
-
+  - Install all necessary Python libraries using the ```requirements.txt``` file to ensure the application functions correctly.
+    
 ## Installation
 - ### Step-by-Step Installation
-  1. Clone the repository:
-     - bash '''
-       git clone https://github.com/your-username/BibleWebsite.git
-       cd BibleWebsite'''
-
+  1. **Clone the repository**:
+        - ```
+           git clone https://github.com/your-username/BibleWebsite.git
+           cd BibleWebsite
+           ```
+  2. **Create a virtual environment:** This step is optional but recommended to manage dependencies seperately from other projects.
+        - ```
+          python3 -m venv venv
+          source venv/bin/activate   # On Windows, use 'venv\Scripts\activate'
+          ```
+  3. **Install dependencies:** Install all the neccessary python using the                 ```requirements.txt``` file.
+        - ```pip install -r requirements.txt```
+  4. **Run the Flask app:** Start the flask developement server to run the applicaion
+         - ```flask run```
+  5. **Navigate to the app:** Open your web browser and visit http://127.0.0.1:5000 to view the application.
 
 ## Usage
 - Navigate to the homepage to view the list of available Bible books.
