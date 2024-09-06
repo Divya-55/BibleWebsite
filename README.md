@@ -5,10 +5,10 @@
 This Bible web application allows users to read and explore different translations of the Bible, view specific books and chapters, and access related commentaries. The application is built using Flask, a Python web framework, and integrates content scraped from external websites.
 
 ## Features
-Homepage: Displays a list of all available Bible books.
-Bible Reader: Allows users to read Bible chapters from different translations.
-Commentary Section: Provides commentary for specific Bible chapters.
-Responsive Design: The user interface is designed to be responsive and user-friendly.
+- Homepage: Displays a list of all available Bible books.
+- Bible Reader: Allows users to read Bible chapters from different translations.
+- Commentary Section: Provides commentary for specific Bible chapters.
+- Responsive Design: The user interface is designed to be responsive and user-friendly.
 
 ## Technologies Used
 - Python: Programming language for server-side logic.
@@ -18,38 +18,58 @@ Responsive Design: The user interface is designed to be responsive and user-frie
 - JavaScript: For additional interactivity and functionality.
 
 ## Project Structure
-server.py: Contains the main application logic, including route handling and any other server-side code necessary for the application.
+- server.py: Contains the main application logic, including route handling and any other server-side code necessary for the application.
 
-static/: Holds all static assets for your application, organized by type:
+- static/: Holds all static assets for your application, organized by type:
 
-css/style.css: A stylesheet used to style the web application.
+    - css/style.css: A stylesheet used to style the web application.
 
-image/blogo.png: A logo image used in the application.
+    - image/blogo.png: A logo image used in the application.
 
-javascript/app.js: JavaScript file for adding interactive functionality to the web application.
+    - javascript/app.js: JavaScript file for adding interactive functionality to the web application.
 
-data_details.json: A JSON file containing data details, such as translations and book information.
+    - data_details.json: A JSON file containing data details, such as translations and book information.
 
-templates/: Contains all HTML templates used to render different pages of your application:
+- templates/: Contains all HTML templates used to render different pages of your application:
 
-home.html: Template for the homepage.
+    - home.html: Template for the homepage.
 
-bible.html: Template for displaying Bible chapters for reading.
+    - bible.html: Template for displaying Bible chapters for reading.
 
-commentary.html: Template for displaying Bible commentary.
+    - commentary.html: Template for displaying Bible commentary.
+
+## Prerequisites
+  - Python 3.8+
+  - Pip (Python package installer)
+  - An active internet connection (for scraping content from Bible.com and Enduring Word)
+
+## Requirements
+`''txt
+Flask==2.0.1
+requests==2.26.0
+beautifulsoup4==4.10.0
+lxml==4.6.3'''
+
+## Installation
+- ### Step-by-Step Installation
+  1. Clone the repository:
+     - bash '''
+       git clone https://github.com/your-username/BibleWebsite.git
+       cd BibleWebsite'''
+
 
 ## Usage
-Navigate to the homepage to view the list of available Bible books.
-Click on any book to view its chapters in a specified translation.
-Switch between translations using the navigation menu.
-Access commentaries for each chapter to gain insights and understanding.
+- Navigate to the homepage to view the list of available Bible books.
+- Click on any book to view its chapters in a specified translation.
+- Switch between translations using the navigation menu.
+- Access commentaries for each chapter to gain insights and understanding.
 
 ## Note
-The application scrapes content from external websites, such as Bible.com and Enduring Word, to retrieve Bible verses and commentary. 
-Ensure that your internet connection is active to access and display the scraped content.
-
+- This app scrapes content from external websites like Bible.com and Enduring Word.
+- Make sure your internet connection is active to fetch and display the content.
+  
 ## Acknowledgements
-The application uses Bible.com for Bible verse content.
-Commentary content is sourced from Enduring Word.
-Front-end icons are provided by Font Awesome.
+- Bible Verses: Bible.com.
+- Commentary: Enduring Word.
+- Icons: Font Awesome.
 
