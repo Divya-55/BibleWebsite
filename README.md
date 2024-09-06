@@ -11,11 +11,11 @@ Commentary Section: Provides commentary for specific Bible chapters.
 Responsive Design: The user interface is designed to be responsive and user-friendly.
 
 ## Technologies Used
-Python: Programming language for server-side logic.
-Flask: Web framework for building the application.
-BeautifulSoup: Library used for web scraping and parsing HTML content.
-HTML/CSS: For structuring and styling web pages.
-JavaScript: For additional interactivity and functionality.
+- Python: Programming language for server-side logic.
+- Flask: Web framework for building the application.
+- BeautifulSoup: Library used for web scraping and parsing HTML content.
+- HTML/CSS: For structuring and styling web pages.
+- JavaScript: For additional interactivity and functionality.
 
 ## Project Structure
 server.py: Contains the main application logic, including route handling and any other server-side code necessary for the application.
