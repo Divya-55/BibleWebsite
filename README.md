@@ -47,21 +47,30 @@ This Bible web application allows users to read and explore different translatio
     
 ## Installation
 - ### Step-by-Step Installation
-  1. **Clone the repository**:
-         ```
-         git clone https://github.com/your-username/BibleWebsite.git
-         cd BibleWebsite
-         ```
+  1. **Clone the repository**: 
+  ``` bash
+  git clone https://github.com/your-username/BibleWebsite.git
+  cd BibleWebsite
+  ```
+  
   2. **Create a virtual environment:** This step is optional but recommended to manage dependencies seperately from other projects.
-         ```
-         python3 -m venv venv
-         source venv/bin/activate   # On Windows, use 'venv\Scripts\activate'
-         ```
-  3. **Install dependencies:** Install all the neccessary python using the                           ```requirements.txt``` file.
-         ```pip install -r requirements.txt```
+  ``` bash
+  python3 -m venv venv
+  source venv/bin/activate   # On Windows, use 'venv\Scripts\activate'
+  ```
+  
+  3. **Install dependencies:** Install all the neccessary python using the ```requirements.txt``` file.              
+  ```bash
+  pip install -r requirements.txt
+  ```
+  
   4. **Run the Flask app:** Start the flask developement server to run the applicaion
-         ```flask run```
-  5. **Navigate to the app:** Open your web browser and visit http://127.0.0.1:5000 to view the application.
+  ```bash
+  flask run
+  ```
+
+  6. **Navigate to the app:** Open your web browser and visit http://127.0.0.1:5000 to view the application.
+
 
 ## Usage
 - Navigate to the homepage to view the list of available Bible books.
