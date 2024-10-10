@@ -1,4 +1,4 @@
-# BibleWebsite
+![home page](https://github.com/user-attachments/assets/fa6beee6-6324-45c6-a69b-80b6534dd8c0)# BibleWebsite
 *Your ultimate Bible website for detailed commentaries, full chapters, and multiple translations to enhance your study.*
 
 ## Description
@@ -9,6 +9,35 @@ This Bible web application allows users to read and explore different translatio
 - **Bible Reader:** Allows users to read Bible chapters from different translations.
 - **Commentary Section:** Provides commentary for specific Bible chapters.
 - **Responsive Design:** The user interface is designed to be responsive and user-friendly.
+
+## Screenshots
+
+### Homepage
+![home page](https://github.com/user-attachments/assets/b4f205fd-7d82-4550-a1fb-8c71a2b7ab87)
+
+![home page displaying all books name](https://github.com/user-attachments/assets/7c94e91c-97a1-4549-9d19-5966edcab947)
+*Homepage displaying available Bible books.*
+
+### Homepage Footer
+![home page footer](https://github.com/user-attachments/assets/3efd2b19-eca3-47fc-b3e5-619f7fe46d06)
+
+
+### Bible Read Page
+![bible read page](https://github.com/user-attachments/assets/f81165f2-e193-4dee-a4cf-c6a3d9a6c40f)
+
+
+### Change Book
+![change book](https://github.com/user-attachments/assets/5ea3d718-7b17-4dc2-a0c9-ea76ace811f6)
+
+
+### Change Translation
+![Change Translation](screenshots/change_translation.png)
+
+### Bible Read Page Footer
+![Bible Read Page Footer](screenshots/bible_read_page_footer.png)
+
+### Read Bible Along with Commentary
+![Read Bible with Commentary](screenshots/read_bible_with_commentary.png)
 
 ## Technologies Used
 - **Python:** Programming language for server-side logic.
