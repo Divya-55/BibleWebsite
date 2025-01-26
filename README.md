@@ -72,7 +72,7 @@ This Bible web application allows users to read and explore different translatio
 - **requrements.txt:** Lists all Python libraries and versions required for the project.
 
 ## Prerequisites
-  - Python 3.8+
+  - Python 3.12
   - Pip (Python package installer)
   - An active internet connection (for scraping content from Bible.com and Enduring Word)
   - Install all necessary Python libraries using the ```requirements.txt``` file to ensure the application functions correctly.
